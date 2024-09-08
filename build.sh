@@ -11,7 +11,8 @@ rpm-ostree install \
   cowsay \
   htop \
   kitty \
-  neovim
+  neovim \
+  powertop
 
 ### Enable additional services
 systemctl enable podman.socket
