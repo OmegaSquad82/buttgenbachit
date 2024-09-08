@@ -11,8 +11,7 @@ rpm-ostree install \
   cowsay \
   htop \
   kitty \
-  neovim \
-  vlc
+  neovim
 
 ### Enable additional services
 systemctl enable podman.socket
