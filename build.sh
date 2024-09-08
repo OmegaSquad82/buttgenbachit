@@ -12,7 +12,6 @@ rpm-ostree install \
   htop \
   kitty \
   neovim \
-  #VirtualBox-7.0 \
   vlc
 
 ### Additional Software from Flathub
