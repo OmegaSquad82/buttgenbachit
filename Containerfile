@@ -6,7 +6,7 @@
 
 # See list here: https://github.com/orgs/ublue-os/packages?repo_name=main
 ARG SOURCE_IMAGE="bazzite"
-ARG SOURCE_SUFFIX="-deck"
+ARG SOURCE_SUFFIX="" #-deck"
 ARG SOURCE_TAG="stable"
 
 ### 2. SOURCE IMAGE
