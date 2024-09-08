@@ -12,11 +12,12 @@ rpm-ostree install \
   htop \
   kitty \
   neovim \
+  VirtualBox-7.0 \
   vlc
 
-#### Additional Software from Flathub
-flatpak install flathub md.obsidian.Obsidian
-flatpak install flathub com.vscodium.codium
+### Additional Software from Flathub
+#flatpak install flathub md.obsidian.Obsidian
+#flatpak install flathub com.vscodium.codium
 
-#### Enable additional services
+### Enable additional services
 systemctl enable podman.socket
