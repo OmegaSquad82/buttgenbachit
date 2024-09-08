@@ -15,3 +15,5 @@ rpm-ostree install \
 
 ### Enable additional services
 systemctl enable podman.socket
+systemctl enable sshd.service
+systemctl disable tailscaled.service
