@@ -1,4 +1,7 @@
-# image-template
+# custom image from bazzite based on image-template
+
+[![build-ublue-custom](https://github.com/OmegaSquad82/bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/OmegaSquad82/bazzite/actions/workflows/build.yml)
+[![Dependabot Updates](https://github.com/OmegaSquad82/bazzite/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/OmegaSquad82/bazzite/actions/workflows/dependabot/dependabot-updates)
 
 # Purpose
 
