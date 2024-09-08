@@ -6,18 +6,18 @@ RELEASE="$(rpm -E %fedora)"
 
 
 ### Install packages
+rpm-ostree install \
+  byobu \
+  cowsay \
+  htop \
+  kitty \
+  neovim \
+  VirtualBox \
+  vlc
 
-# Packages can be installed from any enabled yum repo on the image.
-# RPMfusion repos are available by default in ublue main images
-# List of rpmfusion packages can be found here:
-# https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
+#### Additional Software from Flathub
+flatpak install flathub md.obsidian.Obsidian
+flatpak install flathub com.vscodium.codium
 
-# this installs a package from fedora repos
-rpm-ostree install screen
-
-# this would install a package from rpmfusion
-# rpm-ostree install vlc
-
-#### Example for enabling a System Unit File
-
+#### Enable additional services
 systemctl enable podman.socket
