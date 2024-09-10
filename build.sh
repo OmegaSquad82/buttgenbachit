@@ -9,8 +9,10 @@ RELEASE="$(rpm -E %fedora)"
 rpm-ostree install \
   byobu \
   cowsay \
+  goverlay \
   htop \
   kitty \
+  mangohud \
   neovim \
   powertop
 
