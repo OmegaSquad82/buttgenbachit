@@ -14,6 +14,7 @@ rpm-ostree install \
   kitty \
   mangohud \
   neovim \
+  netdata \
   powertop
 
 ### Enable additional services
