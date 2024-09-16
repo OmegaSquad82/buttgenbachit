@@ -7,7 +7,6 @@ RELEASE="$(rpm -E %fedora)"
 
 ### Install packages
 rpm-ostree install \
-    bpytop \
     byobu \
     cowsay \
     goverlay \
@@ -19,7 +18,7 @@ rpm-ostree install \
     powertop \
     tlp
 
-### Enable additional services
+### Manage additional services
 systemctl enable podman.socket
 systemctl enable sshd.service
 systemctl disable tailscaled.service
